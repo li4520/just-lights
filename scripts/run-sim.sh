@@ -54,7 +54,7 @@ elif find "$ROOT_DIR/source" \
 fi
 
 if [[ "$needs_build" == true ]]; then
-  "$ROOT_DIR/scripts/build_light820.sh" "$TARGET_DEVICE"
+  "$ROOT_DIR/scripts/build.sh" "$TARGET_DEVICE"
 fi
 
 pkill -f '/bin/monkeydo' >/dev/null 2>&1 || true

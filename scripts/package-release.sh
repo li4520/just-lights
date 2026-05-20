@@ -3,6 +3,10 @@ set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 VERSION="${1:-0.1.0}"
+if [[ ! "$VERSION" =~ ^[A-Za-z0-9._-]+$ ]]; then
+  echo "Invalid version: $VERSION" >&2
+  exit 1
+fi
 RELEASE_DIR="$ROOT_DIR/build/release/v$VERSION"
 SUPPORTED_DEVICES=(edge1050 edge1040 edge850 edge840 edgeexplore2)
 
