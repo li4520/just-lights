@@ -16,6 +16,10 @@ It only sends bike-light mode commands through the Connect IQ ANT+ light APIs. I
 
 This project is not affiliated with, sponsored by, or approved by Garmin.
 
+## Download
+
+Ready-to-sideload `.prg` files are on the [v0.1.0 release page](https://github.com/li4520/just-lights/releases/tag/v0.1.0). Open **Assets** and download the file that matches your Edge model.
+
 ## Why This Exists
 
 I built this app because I wanted one that just works without extra setup. It was originally written for the Garmin Varia 820, and it also seems to work with the Wahoo TRACKR.
@@ -48,7 +52,7 @@ Other lights may work if they expose the same compatible ANT+ light-mode capabil
 
 ## Install A Sideload Build
 
-1. Download the `.prg` file for your exact Edge device from GitHub Releases.
+1. Download the `.prg` file for your exact Edge device from the [v0.1.0 release assets](https://github.com/li4520/just-lights/releases/tag/v0.1.0).
 2. Connect the Edge to your computer by USB.
 3. Copy the `.prg` file into the device's `GARMIN/APPS` folder.
 4. Disconnect/eject the Edge safely.
