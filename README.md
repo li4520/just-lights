@@ -16,6 +16,12 @@ It only sends bike-light mode commands through the Connect IQ ANT+ light APIs. I
 
 This project is not affiliated with, sponsored by, or approved by Garmin.
 
+## Why This Exists
+
+I built this app because I wanted one that just works without extra setup. It was originally written for the Garmin Varia 820, and it also seems to work with the Wahoo TRACKR.
+
+Garmin Connect IQ does not currently provide access to custom light modes for the Varia 820, so those modes are not available in this app. Just Lights currently supports standard modes only. Hopefully Garmin exposes custom light modes in the future.
+
 ## Supported Targets
 
 Release builds are prepared for these touchscreen Edge targets:
