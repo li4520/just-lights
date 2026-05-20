@@ -1,0 +1,6 @@
+.DS_Store
+/build/
+/developer_key
+/*.iq
+/*.prg
+/*.debug.xml
