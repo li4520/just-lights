@@ -6,6 +6,7 @@ VERSION="${1:-0.1.0}"
 RELEASE_DIR="$ROOT_DIR/build/release/v$VERSION"
 SUPPORTED_DEVICES=(edge1050 edge1040 edge850 edge840 edgeexplore2)
 
+rm -rf "$RELEASE_DIR"
 mkdir -p "$RELEASE_DIR"
 
 "$ROOT_DIR/scripts/build.sh" all
